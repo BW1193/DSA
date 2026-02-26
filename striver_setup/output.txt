@@ -1,1 +1,2 @@
-Hello world 34234
+Enter some number
+Hello world 12345
