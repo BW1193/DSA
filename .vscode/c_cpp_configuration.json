@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "myConfigurationName",
+      "includePath": ["C:\\MinGW\\include"],
+      "defines": [],
+      "compilerPath": "C:/MinGW/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++14",
+      "IntelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
