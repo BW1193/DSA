@@ -1,0 +1,9 @@
+Count the subsequence with sum = k 
+
+Example :
+arr = {1,2,1}
+required sum = 2
+
+o/p ->
+2 
+reason -> since there are 2 subsequences having the sum as 2 , ie, [1 1] and [2]

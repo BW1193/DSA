@@ -1,0 +1,12 @@
+Given an array of integers, print only one subsequence whose sum is equal to k
+
+Example : 
+arr = [1,2,1]
+sum required (k) = 2
+output ->
+1,1
+
+or
+
+output ->
+2

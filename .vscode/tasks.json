@@ -22,7 +22,7 @@
             "detail": "compiler: /usr/bin/aarch64-linux-gnu-g++"
         },
         {
-            "label": "run with console IO",
+            "label": "Ubuntu - run with console IO",
             "type": "shell",
             "command": "selfDir=\"$(dirname \"${file}\")\"; mkdir -p ${selfDir}/out ; g++ -std=c++17 -o ${selfDir}/out/${fileBasenameNoExtension} ${file} && ${selfDir}/out/${fileBasenameNoExtension}",
             "group": {
@@ -31,7 +31,7 @@
             }
         },
         {
-            "label": "run with file IO",
+            "label": "Ubuntu - run with file IO",
             "type": "shell",
             "command": "selfDir=\"$(dirname \"${file}\")\"; mkdir -p ${selfDir}/out ; g++ -std=c++17 -o ${selfDir}/out/${fileBasenameNoExtension} ${file} && ${selfDir}/out/${fileBasenameNoExtension} < ${selfDir}/input.txt > ${selfDir}/output.txt",
             "group": {
@@ -41,7 +41,7 @@
         },
         {
             "type": "cppbuild",
-            "label": "Build_windows",
+            "label": "windows - build",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
@@ -72,7 +72,7 @@
             },
         },
         {
-            "label": "Build+Run - windows",
+            "label": "windows - Build+Run",
             "dependsOn": [
                 "Build_windows",
                 "Run_Windows"
