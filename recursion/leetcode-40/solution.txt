@@ -1,0 +1,18 @@
+for brute.cpp
+
+172 / 176 testcases passed
+
+FAILURE TEST CASE 1 :-
+
+Time Limit Exceeded
+
+Analysis
+
+Last Executed Input
+
+Use Testcase
+candidates =
+[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+
+target =
+30

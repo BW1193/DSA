@@ -65,17 +65,17 @@
         },
         {
             "type": "process",
-            "label": "Run_Windows",
+            "label": "Run - Windows",
             "command": "${fileDirname}\\out\\${fileBasenameNoExtension}.exe",
             "options": {
                 "cwd": "C:\\MinGW\\bin"
-            },
+            }
         },
         {
             "label": "windows - Build+Run",
             "dependsOn": [
-                "Build_windows",
-                "Run_Windows"
+                "windows - build",
+                "Run - Windows"
             ],
             "dependsOrder": "sequence",
             "problemMatcher": [
@@ -83,8 +83,8 @@
             ],
             "group": {
                 "kind": "build",
-                "isDefault": false
+                "isDefault": true
             }
-        }
+        },
     ]
 }
